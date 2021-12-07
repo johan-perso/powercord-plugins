@@ -1,0 +1,7 @@
+{
+	"name": "MassCopy",
+	"description": "Permet de dupliquer et envoyer un texte sur plusieurs lignes (commande masscopy)",
+	"author": "Johan#8021",
+	"version": "1.0.0",
+	"license": "ISC"
+}
