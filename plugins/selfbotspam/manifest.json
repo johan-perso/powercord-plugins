@@ -1,0 +1,7 @@
+{
+	"name": "SelfbotSpam",
+	"description": "Lance un spam dans le salon où la commande est exécuté (utilise selfbot.johanstickman.com)",
+	"author": "Johan#8021",
+	"version": "1.0.0",
+	"license": "ISC"
+}
