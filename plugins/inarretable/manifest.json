@@ -1,0 +1,7 @@
+{
+	"name": "Inarrêtable",
+	"description": "Ajoute une commande .inarretable vous répétant qu'une fois executé, il est inarrêtable :)",
+	"author": "Johan#8021",
+	"version": "1.0.0",
+	"license": "MIT"
+}
