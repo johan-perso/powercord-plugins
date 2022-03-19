@@ -9,7 +9,7 @@
  * @source https://github.com/johan-perso/powercord-plugins/tree/main/plugins/gooseeverywhere
 */
 
-module.exports = class ExamplePlugin {
+module.exports = class GooseEverywhere {
 	start(){
 		setInterval(() => {
 			// Images/vidéos
