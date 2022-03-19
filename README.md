@@ -1,6 +1,13 @@
 # Powercord plugins
 
-Une collection de 3 plugins pour Powercord, rajoutant des commandes custom.
+Une collection de 4 plugins pour Powercord, rajoutant des commandes custom.
+
+
+## [GooseEverywhere](https://github.com/johan-perso/powercord-plugins/tree/main/plugins/everywhere)
+
+![GooseEverywhere](https://us-east-1.tixte.net/uploads/images.johanstickman.com/GooseEverywhere.png)
+
+Remplace toute les images par une oie 🦢
 
 
 ## [MassCopy](https://github.com/johan-perso/powercord-plugins/tree/main/plugins/masscopy)
