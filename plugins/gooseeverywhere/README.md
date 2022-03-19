@@ -4,7 +4,7 @@
 
 Remplace toute les images par une oie 🦢
 
-### Installation
+### Installation (Powercord)
 
 Ouvrez un terminal dans le dossier des plugins Powercord
 
@@ -18,3 +18,7 @@ cd johanstickman-GooseEverywhere
 curl https://raw.githubusercontent.com/johan-perso/powercord-plugins/main/plugins/gooseeverywhere/index.js -o index.js
 curl https://raw.githubusercontent.com/johan-perso/powercord-plugins/main/plugins/gooseeverywhere/manifest.json -o manifest.json
 ```
+
+### Installation (Betterdiscord)
+
+Télécharger le fichier betterdiscord.plugin.js dans votre dossier plugins.
