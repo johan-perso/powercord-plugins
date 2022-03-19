@@ -1,3 +1,8 @@
+/*
+	Aussi dispo sur BetterDiscord :)
+	https://github.com/johan-perso/powercord-plugins/tree/main/plugins/gooseeverywhere/betterdiscord.plugin.js
+*/
+
 const { Plugin } = require('powercord/entities');
 
 module.exports = class gooseeverywhere extends Plugin {
