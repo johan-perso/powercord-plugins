@@ -1,0 +1,7 @@
+{
+	"name": "NewEmojis",
+	"description": "Affiche les nouveaux émojis que Discord n'a pas encore intégré",
+	"author": "Johan#8021",
+	"version": "1.0.0",
+	"license": "ISC"
+}
