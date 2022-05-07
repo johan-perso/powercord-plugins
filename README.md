@@ -1,13 +1,20 @@
 # Powercord plugins
 
-Une collection de 4 plugins pour Powercord, rajoutant des commandes custom.
+Une collection de 5 plugins pour Powercord, rajoutant des commandes custom.
 
 
-## [GooseEverywhere](https://github.com/johan-perso/powercord-plugins/tree/main/plugins/everywhere)
+## [GooseEverywhere](https://github.com/johan-perso/powercord-plugins/tree/main/plugins/gooseeverywhere)
 
 ![GooseEverywhere](https://us-east-1.tixte.net/uploads/images.johanstickman.com/GooseEverywhere.png)
 
 Remplace toute les images par une oie 🦢
+
+
+## [NewEmojis](https://github.com/johan-perso/powercord-plugins/tree/main/plugins/newemojis)
+
+![NewEmojis](https://us-east-1.tixte.net/uploads/images.johanstickman.com/newemojis.png)
+
+Affiche les nouveaux émojis que Discord n'a pas encore intégré
 
 
 ## [MassCopy](https://github.com/johan-perso/powercord-plugins/tree/main/plugins/masscopy)
