@@ -12,9 +12,8 @@ module.exports = class newemojis extends Plugin {
 			mutations.forEach(mutation => {
 				if(mutation.type == 'childList'){
 					if(mutation.addedNodes.length > 0){
-						console.log(mutation.addedNodes[0].classList, mutation.addedNodes[0].nodeType);
 						// Si c'est un message
-						if(mutation.addedNodes[0].classList.contains('messageListItem-ZZ7v6g') || mutation.addedNodes[0].classList.contains('chatContent-3KubbW')){
+						if(mutation.addedNodes[0].classList && Array.from(mutation.addedNodes[0].classList).length && (mutation.addedNodes[0].classList.contains('messageListItem-ZZ7v6g') || mutation.addedNodes[0].classList.contains('chatContent-3KubbW'))){
 							// Remplacer les émojis
 							Array.from(mutation.addedNodes[0].querySelectorAll('.messageContent-2t3eCI')).forEach(message => {
 								// "face-with-peeking-eye"
@@ -72,6 +71,10 @@ module.exports = class newemojis extends Plugin {
 								// "troll"
 								if(message.innerText.length > 2) message.innerHTML = message.innerHTML.replaceAll('🧌', `<img draggable="false" class="emoji" data-type="emoji" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/322/troll_1f9cc.png">`)
 								else message.innerHTML = message.innerHTML.replaceAll('🧌', `<img draggable="false" class="emoji" data-type="emoji jumboable" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/322/troll_1f9cc.png">`)
+
+								// "emoji_pouce"
+								if(message.innerText.length > 2) message.innerHTML = message.innerHTML.replaceAll(':emoji_pouce:', `<img draggable="false" class="emoji" data-type="emoji" src="https://firebasestorage.googleapis.com/v0/b/storage-bf183.appspot.com/o/otherImages%2F580b57fcd9996e24bc43c4c4.png?alt=media">`)
+								else message.innerHTML = message.innerHTML.replaceAll(':emoji_pouce:', `<img draggable="false" class="emoji" data-type="emoji jumboable" src="https://firebasestorage.googleapis.com/v0/b/storage-bf183.appspot.com/o/otherImages%2F580b57fcd9996e24bc43c4c4.png?alt=media">`)
 							})
 						}
 					}
